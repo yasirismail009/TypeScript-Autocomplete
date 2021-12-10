@@ -1,0 +1,75 @@
+{
+  "name": "react-material-admin",
+  "version": "1.1.0",
+  "private": true,
+  "homepage": "./",
+  "resolutions": {
+    "websocket-extensions": "^0.1.4",
+    "node-forge": "^0.10.0",
+    "node-fetch": "^2.6.1"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-tailwind/react": "^0.3.4",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.3",
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.4.0",
+    "@mui/material": "^5.2.3",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "apexcharts": "^3.24.0",
+    "arrow-keys-react": "^1.0.6",
+    "classnames": "^2.2.6",
+    "cross-env": "^7.0.3",
+    "file-saver": "^2.0.5",
+    "font-awesome": "^4.7.0",
+    "jszip": "^3.7.1",
+    "mui-datatables": "^3.7.4",
+    "postcss-cli": "^9.0.2",
+    "postcss-nested": "4.2.3",
+    "react": "^16.14.0",
+    "react-apexcharts": "^1.3.7",
+    "react-dom": "^16.14.0",
+    "react-full-screen": "^1.1.0",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-syntax-highlighter": "^15.4.3",
+    "react-toastify": "^7.0.3",
+    "recharts": "^2.0.4",
+    "styled-components": "^5.3.3",
+    "sysend": "^1.8.0",
+    "tinycolor2": "^1.4.2"
+  },
+  "scripts": {
+    "start": "cross-env TAILWIND_MODE=watch craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/helper-call-delegate": "^7.11.4",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "prettier": "^2.1.1",
+    "tailwindcss": "^3.0.0"
+  }
+}
