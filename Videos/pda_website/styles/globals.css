@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Poppins Font*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+/* For whitespace on the sides varying with width */
+.padding-alignment {
+  @apply sm:px-24 px-2;
+}
+
+.margin-alignment {
+  @apply sm:mx-24 mx-2;
+}
+
+/* Add this class to hide horizontal scrolls */
+.hide-scroll-x::-webkit-scrollbar {
+  width: 0px;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Default body background from our theme */
+body {
+  @apply bg-paper;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevents blue highlight color of elements when tapped on phones */
+* {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.css-r1hick-MuiGrid-root {
+  margin: 0 !important;
+}
+.css-r1hick-MuiGrid-root > .MuiGrid-item {
+  padding: 0 !important;
+}

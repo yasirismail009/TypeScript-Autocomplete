@@ -1,0 +1,103 @@
+.backColor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background: url("../Assests/img/bg1.png"); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.backNavColor {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background: url("../Assests/img/bg1.png"); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.playStore {
+  background-color: #173371;
+  color: #fff;
+  border-radius: 120px;
+}
+.playStore:hover {
+  background-color: #ffc200;
+  color: #fff;
+}
+.appleStore {
+  background-color: #fff;
+  color: #173371;
+  border-radius: 120px;
+}
+.appleStore:hover {
+  background-color: #ffc200;
+  color: #fff;
+}
+.backColorPricing {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  /* background: url("../Assests/img/bgPricing.png"); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+}
+.backProfile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 50px;
+  justify-content: center;
+  /* background: url("../Assests/img/teamcard.png"); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  color: #173371;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+}
+.errorPageDisplay {
+  display: block;
+}
+.errorPageHide {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .backNavColor {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .errorPage {
+    display: flex;
+    flex-direction: column;
+    color: #173371;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .errorPageDisplay {
+    display: none;
+  }
+  .errorPageHide {
+    display: block;
+  }
+}
